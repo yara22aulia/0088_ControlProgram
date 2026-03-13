@@ -10,10 +10,12 @@ float Rata_rata(float a, float b
 string Status_lulus(float r)
 {
     if (r >= 60)
-        if(r > 80){
+        if(r > 80)
+        {
             return "Lulus Cumlade";
         }
-        else{
+        else
+        {
             return "Lulus Baik";
         }
         else
@@ -21,7 +23,7 @@ string Status_lulus(float r)
 }
 
 int main(
-    
+
 )
 {
     float nilBI,nilMT,rerata;
